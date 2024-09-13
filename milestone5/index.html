@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume Builder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Dynamic Resume with unique Path Builder by<br/> Bilqees Shahid! <br/>Published on GitHub & Host on vercel</h1>
+  <form id="resumeForm">
+    <fieldset>
+      <legend>Personal Information</legend>
+
+<label for="username">Resume Unique Path/URL:</label> 
+<input type="text" id="username" name="username" required /><br/>
+
+
+
+      <label for="name">Name: <br/></label>
+      <input type="text" id="name" name="name" required>
+      <br/>
+
+      <label for="email">E-mail: <br/></label>
+      <input type="text" id="email" name="email" required>
+      <br/>
+
+      <label for="contact">Contact: <br/></label>
+      <input type="text" id="contact" name="contact" required>
+      <br/>
+      <label for="giaicId">GIAIC ID: <br/></label>
+      <input type="text" id="giaicId" name="giaicId" required>
+      <br/>
+      <label for="quarter">Quarter: <br/></label>
+      <input type="text" id="quarter" name="quarter" required>
+      
+    
+    <!--profile picture-->
+    <label for="profilePicture">Profile Picture </label>
+      <input type="file" id="profilePicture" name="profilePicture" accept="image/*" required>
+    </fieldset>
+
+    <!--Education-->
+    <fieldset>
+    <legend>
+      Education
+    </legend>
+    <label for="education">Education<br/></label>
+    <textarea id="education" name="education" rows="4" required></textarea>
+    </fieldset>
+
+    <fieldset>
+      <legend>
+        Experience
+      </legend>
+      <label for="experience">Experience<br/></label>
+      <textarea id="experience" name="experience" rows="4" required></textarea>
+      </fieldset>
+
+
+      <fieldset>
+        <legend>
+          Skills
+        </legend>
+        <label for="skills">Skills<br/></label>
+        <textarea id="skills" name="skills" rows="4" required></textarea>
+        </fieldset>
+
+        <fieldset>
+          <legend>
+            GIAIC Syllabus Outline
+          </legend>
+          <label for="syllabus">Syllabus<br/></label>
+          <textarea id="syllabus" name="syllabus" rows="4" required></textarea>
+          </fieldset>
+
+
+        <fieldset>
+          <legend>
+            Goals To achieve
+          </legend>
+          <label for="goals">Goals To Achieve<br/></label>
+          <textarea id="goals" name="goals" rows="4" required></textarea>
+          </fieldset>
+
+
+
+  <button type="submit">Generate Resume Below</button>
+
+
+  </form>
+
+  <div id="resumeOutput" class="hidden">
+    <!--Resume will be generated-->
+
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
+
+
+
+
+
+ 
